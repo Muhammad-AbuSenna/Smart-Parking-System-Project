@@ -48,7 +48,7 @@ Advantages:
 
 System consists of two parts:
 
-## 1.System prototype: 
+## 1. System prototype: 
 
 That’s the IR sensor and the microcontroller. First, the IR sensor will be held in the middle of the car slot beneath the car, when a car covers the slot it will generate a voltage value corresponds to the car height, the voltage value is then sent to the microcontroller pin which the sensor is attached to.
 Then the Esp32 process this value and convert it to a logical 1 or 0 where, 1 stands for the parking slot is occupied with a car and 0 stands for the slot is empty. The esp32 then sends those values to the webserver. 
