@@ -1,6 +1,6 @@
 # Smart-Parking-System-Project
 
-Overview:
+##Overview:
 
 I wanted to implement a smart parking system that's remotely trough a Web Application check and indicate the availability of a parking slots within a garage from wherever you are. There were a various ideas to implement such a system, but each one have it’s weaknesses from cost issues to environment issues. So, I decided to use the most suitable way from my point of view.
 
