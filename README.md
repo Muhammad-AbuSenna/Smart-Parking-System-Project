@@ -20,11 +20,11 @@ which will sense the car existence.
 
 Advantages: 
 
-•	Suitable for environment factors.
+-	Suitable for environment factors.
 
-•	Its sensing range is 150cm which will sense any car of any height.
+-	Its sensing range is 150cm which will sense any car of any height.
 
-•	Precise and works in real-time.
+-	Precise and works in real-time.
 
 
 2. Microcontroller: 
@@ -33,11 +33,11 @@ which will take the sensor readings and send them to a webserver. In my case I h
 
 Advantages:
 
-•	It comes with an integrated Wi-Fi module that can connect to the internet and send data to the webserver.
+-	It comes with an integrated Wi-Fi module that can connect to the internet and send data to the webserver.
 
-•	Its processing power is great and works in real-time.
+-	Its processing power is great and works in real-time.
 
-•	Ultra power saving.
+-	Ultra power saving.
 
 
 
@@ -68,13 +68,13 @@ I added a feature that the user can reserve a slot until he comes, of course I a
 
 The technologies used to develop this web application is:
 
-•	HTML
+-	HTML
 
-•	CSS
+-	CSS
 
-•	JavaScript
+-	JavaScript
 
-•	Ajax 
+-	Ajax 
 
 Of course HTML and CSS will build the body of the page, JavaScript will act upon the values that comes in a respond from the Esp32 that will change the car value to the red if the received value is 1 and if it’s 0 it will remain green.
 
@@ -94,11 +94,11 @@ Possible future updates:
 
 A lot more features can be added to the system. For example:
 
-•	Every kind of a car has its height, so you can store those heights in database, measure the height of the car by the sensor (sharp IR sensor is very precise with distances), compare it with the database, and then determine the kind of the car.
+-	Every kind of a car has its height, so you can store those heights in database, measure the height of the car by the sensor (sharp IR sensor is very precise with distances), compare it with the database, and then determine the kind of the car.
 
-•	Improve the security and make the reservation eligible for only certain people. (The web application is not much good from a security POV).
+-	Improve the security and make the reservation eligible for only certain people. (The web application is not much good from a security POV).
 
-•	If you were to use the system in a public garage you can add a timer that counts the time the car have spent parking and then calculate the cost.
+-	If you were to use the system in a public garage you can add a timer that counts the time the car have spent parking and then calculate the cost.
 
 
 Note: Check other branches in this repository for source code and video of the system working.
