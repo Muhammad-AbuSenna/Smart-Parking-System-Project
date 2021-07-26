@@ -1,6 +1,6 @@
 # Smart-Parking-System-Project
 
-## Overview:
+# Overview:
 
 I wanted to implement a smart parking system that's remotely trough a Web Application check and indicate the availability of a parking slots within a garage from wherever you are. There were a various ideas to implement such a system, but each one have it’s weaknesses from cost issues to environment issues. So, I decided to use the most suitable way from my point of view.
 
@@ -8,14 +8,14 @@ The idea was to use a sharp IR sensor which senses the object existence if it cu
 
 
 
-## Purposes & Business needs:
+# Purposes & Business needs:
 
 In big institutions like Malls, campuses, companies and even public garages such a system will bring more order to it. A client or employee would come knowing where he can park his car saving his time.
 
 
-## System Components:
+# System Components:
 
-# 1. Sharp IR sensor:
+## 1. Sharp IR sensor:
  
 which will sense the car existence.
 
@@ -29,7 +29,7 @@ Advantages:
 
 
 
-# 2. Microcontroller: 
+## 2. Microcontroller: 
 
 which will take the sensor readings and send them to a webserver. In my case I have chosen ESP32 microcontroller.
 
@@ -44,11 +44,11 @@ Advantages:
 
 
 
-## Implementation: 
+# Implementation: 
 
 System consists of two parts:
 
-# 1.System prototype: 
+## 1.System prototype: 
 
 That’s the IR sensor and the microcontroller. First, the IR sensor will be held in the middle of the car slot beneath the car, when a car covers the slot it will generate a voltage value corresponds to the car height, the voltage value is then sent to the microcontroller pin which the sensor is attached to.
 Then the Esp32 process this value and convert it to a logical 1 or 0 where, 1 stands for the parking slot is occupied with a car and 0 stands for the slot is empty. The esp32 then sends those values to the webserver. 
@@ -59,10 +59,10 @@ For more accuracy: you can use 2 sensors per a slot (one at the beginning of the
 
 Esp32 is programmed using Arduino IDE.
 
-# Note:
+### Note:
  please Check the media branch in the repository to see a picture of the system prototype.
 
-# 2. Web Application:
+## 2. Web Application:
  
 My web page consists of 6 boxes elements, each represent a car slot that will be colored with green indicating that the slot is empty. When a car covers the slot it will be colored with red indicating that the slot is occupied.
 
@@ -87,12 +87,12 @@ When a slot is hovered, option for reservation appears. on clicking, a request w
 Reservation is done by covering the slot, in my case I used a servo motor that will move to cover the sensor upon a reservation request from the user. Of course it will move out upon request for cancellation.
 
 
-## System cost:
+# System cost:
 
 The system is very low cost, the sensor is less than 5$, Esp32 is also costs like 6$ (of course u can use other microcontroller).
 
 
-## Possible future updates: 
+# Possible future updates: 
 
 A lot more features can be added to the system. For example:
 
@@ -103,6 +103,6 @@ A lot more features can be added to the system. For example:
 -	If you were to use the system in a public garage you can add a timer that counts the time the car have spent parking and then calculate the cost.
 
 
-## Note:
+### Note:
 Check other branches in this repository for source code and video of the system working.
 
