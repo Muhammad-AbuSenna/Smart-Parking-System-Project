@@ -60,7 +60,7 @@ For more accuracy: you can use 2 sensors per a slot (one at the beginning of the
 Esp32 is programmed using Arduino IDE.
 
 ### Note:
- please Check the media branch in the repository to see a picture of the system prototype.
+ please Check the media file in the repository to see a picture of the system prototype.
 
 ## 2. Web Application:
  
@@ -104,5 +104,5 @@ A lot more features can be added to the system. For example:
 
 
 ### Note:
-Check other branches in this repository for source code and video of the system working.
+Check other files in this repository for source code and video of the system working.
 
